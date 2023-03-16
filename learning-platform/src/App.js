@@ -1,10 +1,10 @@
 import logo from './logo.svg';
 import './App.css';
 import {BrowserRouter as Router, Route, Routes} from 'react-router-dom';
-import HeaderComponent from '../../react-frontend-emplmgmt/src/components/HeaderComponent';
-import FooterComponent from '../../react-frontend-emplmgmt/src/components/FooterComponent';
-import WFDComponent from './components/WFDComponent';
+import HeaderComponent from './components/HeaderComponent';
+import FooterComponent from './components/FooterComponent';
 import Homepage from './components/Homepage';
+import WFDComponent from './components/practice/WFDComponent';
 
 function App() {
   return (

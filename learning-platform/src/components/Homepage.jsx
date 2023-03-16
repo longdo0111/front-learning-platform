@@ -1,20 +1,10 @@
-import React, { Component } from 'react'
+import React from 'react'
 
-class Homepage extends Component {
-    constructor(props) {
-        super(props)
-    
-        this.state = {
-             
-        }
-    }
-    
-    render() {
-        return (
-            <div>
-                Welcome to the homepage of platform
-            </div>
-        )
-    }
+function Homepage() {
+  return (
+    <div>
+        Welcome to the homepage of platform
+    </div>
+  )
 }
-export default Homepage;
+export default Homepage
